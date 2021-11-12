@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn dev
+
+PATH: 
+  /home/enrique/bin:/usr/local/bin:/home/enrique/bin:/usr/local/bin:/home/enrique/software/node-v10.15.3-linux-x64/bin:/home/enrique/.local/bin:/opt/gradle/gradle-5.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/ant/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /media/enrique/windows/desarrollo/flamefactory/nextjs-blog/package.json: Unexpected token < in JSON at position 137
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+  <<<<<<< HEAD
+      "date-fns": "^2.25.0",
+      "gray-matter": "^4.0.3",
+      "next": "latest",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "remark": "^14.0.1",
+      "remark-html": "^15.0.0"
+  =======
+      "next": "latest",
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+  >>>>>>> Initial commit from Create Next App
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
